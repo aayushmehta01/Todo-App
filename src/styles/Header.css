@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis&family=Oswald:wght@200..700&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  color: #fff; 
+}
+
+.header {
+  background-color: #151515;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  height: 65px;
+}
+
+.header .logo {
+  font-size: 25px; 
+  font-weight: 600;
+  margin-right: auto; 
+}
+
+.header .join {
+  font-weight: bold; 
+  font-size: 20px; 
+  padding-right: 20px; 
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.header .link-about {
+  color: #ccc; 
+  margin-right: 15px; 
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: auto;
+  }
+
+  .header .logo {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .header .join {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  .header .link-about {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .logo {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .header .join {
+    font-size: 14px;
+    padding-right: 10px;
+    outline: none;
+    background: none;
+    color: white;
+    border: none;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .header .link-about {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 5px 10px;
+  }
+
+  .header .logo {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .header .join {
+    font-size: 12px;
+    padding-right: 5px;
+  }
+
+  .header .link-about {
+    margin-right: 5px;
+  }
+}
