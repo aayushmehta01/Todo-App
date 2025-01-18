@@ -40,4 +40,7 @@ This is a feature-rich Todo App built using **ReactJS** for the frontend and **F
 3. **Manage Tasks**: Add, edit, or delete tasks as needed.
 4. **Reset Password**: Use the password reset functionality if needed.
 5. **Receive Notifications**: Stay updated with task reminders.
-   
+
+## Live Preview
+Check out the live preview of the project:  
+** [Live Demo - Todo App](https://todo-app-indol-eight-83.vercel.app/)
