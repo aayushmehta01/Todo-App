@@ -43,4 +43,4 @@ This is a feature-rich Todo App built using **ReactJS** for the frontend and **F
 
 ## Live Preview
 Check out the live preview of the project:  
-** [Live Demo - Todo App](https://todo-app-indol-eight-83.vercel.app/)
+**[Live Demo - Todo App](https://todo-app-indol-eight-83.vercel.app/)
